@@ -1,0 +1,15 @@
+1. recruit@umuzi-admin:~/Downloads$ cd ..
+   recruit@umuzi-admin:~$ find ./Downloads -name *.pdf
+   ./Downloads/Copy of Copy of AVENGERS.pdf
+   ./Downloads/TRENDY RESUMES FOR CREATIVES.pdf
+   ./Downloads/Copy of Research & User Interviews.pdf
+   ./Downloads/UMUZI HANDBOOK 2.0.pdf
+2. recruit@umuzi-admin:~$ mv ~/Downloads/'UMUZI HANDBOOK 2.0.pdf' ~/workspace
+   recruit@umuzi-admin:~$ ls
+   Desktop    Downloads  Pictures  Public    Templates  workspace
+   Documents  Music      Projects  Software  Videos
+   recruit@umuzi-admin:~$ cd workspace
+   recruit@umuzi-admin:~/workspace$ ls
+   CHANGELOG.md   README.md     summary.dm  'UMUZI HANDBOOK 2.0.pdf'
+   cohort.md      recruits.md   summary.md   umuzi.md
+3. recruit@umuzi-admin:~$ find -daystart -ctime 0 -print

@@ -1,0 +1,49 @@
+TASK 5
+
+1.
+recruit@admin2-ThinkCentre-M72e:~$ cd Documents
+recruit@admin2-ThinkCentre-M72e:~/Documents$ touch pad.md
+recruit@admin2-ThinkCentre-M72e:~/Documents$ ls 
+pad.md
+recruit@admin2-ThinkCentre-M72e:~/Documents$ 
+
+2.recruit@admin2-ThinkCentre-M72e:~$ cd Desktop
+recruit@admin2-ThinkCentre-M72e:~/Desktop$ mkdir work
+recruit@admin2-ThinkCentre-M72e:~/Desktop$ ls
+ google-chrome.desktop                    Task1         Task4.2.png
+'LINUX BEGGINER TASKS'                    TASK1        'Unsaved Document 2'
+'linux taskss'                           'TASK 2'      'Unsaved Document 3'
+'Screenshot at 2020-01-15 15-42-30.png'  'TASK 3'       work
+'Screenshot at 2020-01-15 15-43-45.png'  'TASK 4'
+ slack.desktop                            TASK4.1.png
+
+3.recruit@admin2-ThinkCentre-M72e:~/Desktop$ cp ~/Documents/pad.md pad_copy.md
+recruit@admin2-ThinkCentre-M72e:~/Desktop$ ls
+ google-chrome.desktop                    slack.desktop   TASK4.1.png
+'LINUX BEGGINER TASKS'                    Task1           Task4.2.png
+'linux taskss'                            TASK1          'Unsaved Document 2'
+ pad_copy.md                             'TASK 2'        'Unsaved Document 3'
+'Screenshot at 2020-01-15 15-42-30.png'  'TASK 3'         work
+'Screenshot at 2020-01-15 15-43-45.png'  'TASK 4'
+
+4.recruit@admin2-ThinkCentre-M72e:~/Desktop$ locate updated
+/etc/updatedb.conf
+/etc/alternatives/updatedb
+/etc/alternatives/updatedb.8.gz
+/home/recruit/.config/google-chrome/WidevineCdm/latest-component-updated-widevine-cdm
+/usr/bin/updatedb
+/usr/bin/updatedb.mlocate
+/usr/lib/libreoffice/share/config/soffice.cfg/desktop/ui/updatedialog.ui
+/usr/share/icons/Humanity/actions/16/package-installed-updated.svg
+/usr/share/icons/Mint-X/actions/16/package-installed-updated.png
+/usr/share/icons/hicolor/16x16/actions/package-installed-updated.png
+/usr/share/man/man5/updatedb.conf.5.gz
+/usr/share/man/man8/updatedb.8.gz
+/usr/share/man/man8/updatedb.mlocate.8.gz
+
+5.recruit@admin2-ThinkCentre-M72e:~/Desktop$ cd -
+/home/recruit
+
+
+6.
+

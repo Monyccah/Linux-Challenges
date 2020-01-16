@@ -1,0 +1,10 @@
+1. recruit@umuzi-admin:~$ nano my_bio.md
+   recruit@umuzi-admin:~$ ls
+   Desktop    Downloads  my_bio.md  Projects  Software   Videos
+   Documents  Music      Pictures   Public    Templates  workspace
+2. Ctrl + X
+3.recruit@umuzi-admin:~$ mkdir my_files
+  recruit@umuzi-admin:~$ mv my_bio.md my_files
+  recruit@umuzi-admin:~$ cd my_files
+  recruit@umuzi-admin:~/my_files$ ls
+  my_bio.md

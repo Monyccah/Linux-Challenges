@@ -1,0 +1,16 @@
+TASK 1***
+
+1.I see a list of directories.ls lists information about files and directories within the file system.
+
+2.I see the current working directory i.e home/recruit.it means that pwdIt prints the path of the working directory, starting from the root.
+
+3.recruit@admin2-ThinkCentre-M72e:~$ mkdir workspace
+recruit@admin2-ThinkCentre-M72e:~$ ls
+recruit@admin2-ThinkCentre-M72e:~$ cd workspace
+
+
+4.An empty workspace directory.it means the folder does not contain any files inside
+
+5.touch README.md
+
+6.cp README.md CHANGELOG.md

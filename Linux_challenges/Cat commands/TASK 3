@@ -1,0 +1,67 @@
+TASK 3****
+
+
+1.
+recruit@admin2-ThinkCentre-M72e:~$ touch umuzi.md
+recruit@admin2-ThinkCentre-M72e:~$ touch recruits.md
+recruit@admin2-ThinkCentre-M72e:~$ touch cohorts.md
+
+2.
+recruit@admin2-ThinkCentre-M72e:~$ tee umuzi.md
+loooking forward to completing this crash course.
+loooking forward to completing this crash course.
+^C
+
+recruit@admin2-ThinkCentre-M72e:~$ tee recruits.md
+fun and friendly people
+fun and friendly people
+^C
+
+recruit@admin2-ThinkCentre-M72e:~$ tee cohorts.md
+c20 is awesome
+c20 is awesome
+^C
+
+recruit@admin2-ThinkCentre-M72e:~$ ls
+CHANGELOG.md   Desktop     IdeaProjects      Music      README.md     umuzi.md
+cohorts.md     Documents  'linux tasks'    Pictures   recruits.md   Videos
+cp             Downloads  'linux taskss'   Public     Templates     workspac
+
+recruit@admin2-ThinkCentre-M72e:~$ cat cohorts.md
+c20 is awesome
+
+recruit@admin2-ThinkCentre-M72e:~$ cat umuzi.md
+loooking forward to completing this crash course.
+
+recruit@admin2-ThinkCentre-M72e:~$ cat recruits.md
+fun and friendly people
+
+recruit@admin2-ThinkCentre-M72e:~$ 
+
+
+3.recruit@admin2-ThinkCentre-M72e:~$ cat umuzi.md recruits.md cohorts.md >new.md
+recruit@admin2-ThinkCentre-M72e:~$ cat new.md
+loooking forward to completing this crash course.
+fun and friendly people
+c20 is awesome
+recruit@admin2-ThinkCentre-M72e:~$ 
+
+
+4.
+recruit@admin2-ThinkCentre-M72e:~$ cat new.md > summary.md
+recruit@admin2-ThinkCentre-M72e:~$ cat summary.md
+loooking forward to completing this crash course.
+fun and friendly people
+c20 is awesome
+recruit@admin2-ThinkCentre-M72e:~$ 
+
+5.recruit@admin2-ThinkCentre-M72e:~$ echo "The End">>summary.md
+recruit@admin2-ThinkCentre-M72e:~$ cat summary.md
+loooking forward to completing this crash course.
+fun and friendly people
+c20 is awesome
+The End
+recruit@admin2-ThinkCentre-M72e:~$ 
+
+
+
